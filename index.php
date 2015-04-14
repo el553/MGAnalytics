@@ -5,8 +5,19 @@
   require_once 'structure/config.php';
   $mysqli = new mysqli( DB_HOST, DB_USER, DB_PASSWORD, DB_NAME );
 ?>
- 
-<div class = "bodyContent">
-  <h1> Welcome</h1>
+<!DOCTYPE html>
+<html>
+<head>
+	<title> MG Analytics </title>
+	<link rel="stylesheet" type="text/css" href="../css/gallery.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+<div class="content">
+	Welcome
 </div>
+		
+</body>
+</html>
  
